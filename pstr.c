@@ -2,10 +2,20 @@
 #include <stdio.h>
 
 /**
-* pstr - Prints the string starting at the top of the stack.
-* @stack: A pointer to the top of the stack.
-* @line_number: The current line number in the Monty bytecode file.
-*/
+ * f_pstr - Prints the string starting at the top of the stack.
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file.
+ *
+ * Description:
+ * - The f_pstr opcode prints the string represented by the ASCII values
+ *   on the stack until it reaches a non-printable character or the stack is
+ *   empty.
+ * - Parameters:
+ *    - head: A pointer to the top of the stack.
+ *      It represents the stack where the string is read from.
+ *    - counter: The current line number in the Monty bytecode file.
+ *      It is used for error reporting and tracking the program's progress.
+ */
 
 void f_pstr(stack_t **head, unsigned int counter)
 {

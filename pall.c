@@ -1,9 +1,11 @@
 #include "monty.h"
+
 /**
- * f_pall - prints the stack
- * @head: stack head
- * @counter: no used
+* f_pall - Prints all the elements of the stack.
+* @head: Pointer to the head of the stack.
+* @counter: Unused parameter.
 */
+
 void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;

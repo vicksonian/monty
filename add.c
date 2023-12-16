@@ -6,7 +6,7 @@
 * @stack: A pointer to the top of the stack.
 * @line_number: The current line number in the Monty bytecode file.
 */
-void add(stack_t **stack, unsigned int line_number)
+void f_add(stack_t **stack, unsigned int line_number)
 {
 if (stack == NULL || *stack == NULL || (*stack)->next == NULL)
 {
@@ -15,5 +15,5 @@ exit(EXIT_FAILURE);
 }
 
 (*stack)->next->n += (*stack)->n;
-pop(stack, line_number);
+f_pop(stack, line_number);
 }

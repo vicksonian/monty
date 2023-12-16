@@ -6,7 +6,7 @@
 * @stack: A pointer to the top of the stack.
 * @line_number: The current line number in the Monty bytecode file.
 */
-void pop(stack_t **stack, unsigned int line_number)
+void f_pop(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp;
 

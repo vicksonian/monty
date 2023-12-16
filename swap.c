@@ -7,7 +7,7 @@
 * @line_number: The current line number in the Monty bytecode file.
 */
 
-void swap(stack_t **stack, unsigned int line_number)
+void f_swap(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp;
 

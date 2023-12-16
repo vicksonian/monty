@@ -2,9 +2,17 @@
 #include <stdio.h>
 
 /**
- * pint - Prints the value at the top of the stack.
- * @stack: A pointer to the top of the stack.
- * @line_number: The current line number in the Monty bytecode file.
+ * f_pint - Prints the value at the top of the stack.
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file.
+ *
+ * Description:
+ * - The f_pint opcode prints the value at the top of the stack.
+ * - Parameters:
+ *    - head: A pointer to the top of the stack.
+ *      It represents the stack whose top value is to be printed.
+ *    - counter: The current line number in the Monty bytecode file.
+ *      It is used for error reporting and tracking the program's progress.
  */
 
 void f_pint(stack_t **head, unsigned int counter)

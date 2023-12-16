@@ -1,9 +1,18 @@
 #include "monty.h"
 
 /**
- * rotl - Rotates the stack to the top.
- * @stack: A pointer to the top of the stack.
- * @line_number: The current line number in the Monty bytecode file.
+ * f_rotl - Rotates the stack to the top.
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file (unused).
+ *
+ * Description:
+ * - This function implements the rotl operation for the Monty bytecode
+ *   instruction 'rotl'.
+ * - It rotates the stack to the top by moving the top element to the
+ *   bottom.
+ *
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file (unused).
  */
 
 

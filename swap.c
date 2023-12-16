@@ -2,10 +2,18 @@
 #include <stdio.h>
 
 /**
-* swap - Swaps the top two elements of the stack.
-* @stack: A pointer to the top of the stack.
-* @line_number: The current line number in the Monty bytecode file.
-*/
+ * f_swap - Swaps the top two elements of the stack.
+ * @stack: A pointer to the top of the stack.
+ * @line_number: The current line number in the Monty bytecode file.
+ *
+ * Description:
+ * - This function implements the swap operation for the Monty bytecode
+ *   instruction 'swap'.
+ * - It swaps the top two elements of the stack.
+ *
+ * @stack: A pointer to the top of the stack.
+ * @line_number: The current line number in the Monty bytecode file.
+ */
 
 void f_swap(stack_t **stack, unsigned int line_number)
 {

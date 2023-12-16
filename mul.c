@@ -2,11 +2,21 @@
 #include <stdio.h>
 
 /**
-* mul_op - Multiplies the second top element of the stack with the top element.
-* @stack: A pointer to the top of the stack.
-* @line_number: The current line number in the Monty bytecode file.
-*/
- 
+ * f_mul - Multiplies the second top element of the stack with the top element.
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file.
+ *
+ * Description:
+ * - This function implements the multiplication operation for the Monty
+ *   bytecode instruction 'mul'.
+ * - It multiplies the second top element of the stack with the top element.
+ * - If the stack is less than two elements, it prints an error message and
+ *   exits with EXIT_FAILURE.
+ *
+ * @head: A pointer to the top of the stack.
+ * @counter: The current line number in the Monty bytecode file.
+ */
+
 void f_mul(stack_t **head, unsigned int counter)
 {
 	stack_t *h;

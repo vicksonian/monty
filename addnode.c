@@ -4,7 +4,7 @@
 * addnode - Adds a new node to the head of the stack.
 * @head: Pointer to the head of the stack.
 * @n: New value for the node.
-* Return: No return value.
+* Return: It does not return any value.
 */
 
 void addnode(stack_t **head, int n)
